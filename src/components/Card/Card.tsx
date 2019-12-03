@@ -11,10 +11,10 @@ const Card: React.FC<CardProps> =
   ({ Title, Image, Alt, Body }) => (
     <div className="card">
       <div className="title">{Title}</div>
-      {Image &&
+      {/* {Image &&
         <div className="image">
           <img src={Image} alt={Alt} />
-        </div>
+        </div> */}
       }
       <div className="body">{Body}</div>
     </div>
